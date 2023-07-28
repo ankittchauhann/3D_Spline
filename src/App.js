@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from "./logo.svg";
+import "./App.css";
+import Tshirt from "./Components_3D/Common";
 
 function App() {
+  const Elements = {
+    tshirt: "https://prod.spline.design/MnoUdOJDuIparvgb/scene.splinecode",
+    car: "https://prod.spline.design/ci3-6m4MSteJ0Svu/scene.splinecode",
+    robo_4_leg: "https://prod.spline.design/y-0N6X8CBtYwB7p5/scene.splinecode",
+    hand: "https://prod.spline.design/TngVTOyjKeQlEChn/scene.splinecode",
+    miniHouse: "https://prod.spline.design/IYb-E3KmepHteXCP/scene.splinecode",
+    bike: "https://prod.spline.design/Mizutl9vczQqgl0A/scene.splinecode",
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Tshirt url={Elements.tshirt} />
       </header>
     </div>
   );
