@@ -10,12 +10,14 @@ function App() {
     hand: "https://prod.spline.design/TngVTOyjKeQlEChn/scene.splinecode",
     miniHouse: "https://prod.spline.design/IYb-E3KmepHteXCP/scene.splinecode",
     bike: "https://prod.spline.design/Mizutl9vczQqgl0A/scene.splinecode",
+    logoInBag: "https://prod.spline.design/Epb66J-StO35VHqV/scene.splinecode",
+    A_3dLogo: "https://prod.spline.design/nVSknbGQKuvIQt5c/scene.splinecode",
   };
 
   return (
     <div className="App">
       <header className="App-header">
-        <Tshirt url={Elements.tshirt} />
+        <Tshirt url={Elements.A_3dLogo} />
       </header>
     </div>
   );
